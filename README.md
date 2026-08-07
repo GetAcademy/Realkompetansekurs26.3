@@ -14,6 +14,7 @@ Samme link hver gang: [meet.google.com/ojg-xuky-unp](https://meet.google.com/ojg
 
 Får å bli med i Discord kanalen er lenken https://discord.gg/RWd72jmB4
 
+Hver fredag blir det **show and tell** i Discord-kanalen kl 10:00, hvor vi oppsummerer uken og viser hva vi har jobbet med.
 
 ---
 
