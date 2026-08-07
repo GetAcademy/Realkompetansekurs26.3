@@ -7,7 +7,7 @@
 
 ## Velkommen til Realkompetansekurset!
 
-Dette kurset går over fem uker med 2 økter per uke (tirsdager og torsdager kl. 10:00–11:30). Oppstart er mandag 10. august. Du lærer å lage interaktive nettsider med HTML, CSS og JavaScript.
+Dette kurset går over fem uker med minimum 2 økter per uke (tirsdager og torsdager kl. 10:00–11:30). Oppstart er mandag 10. august. Du lærer å lage interaktive nettsider med HTML, CSS og JavaScript.
 
 Tirsdag, Torsdag · 10:00–11:30
 Samme link hver gang: [meet.google.com/ojg-xuky-unp](https://meet.google.com/ojg-xuky-unp)
