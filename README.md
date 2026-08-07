@@ -35,6 +35,10 @@ Vi bruker **ikke**: løkker, arrays eller objekter.
 
 ## Øktplan
 
+Undervisning linken finner du her
+Link til videosamtalen: https://meet.google.com/ojg-xuky-unp
+Det er samme link hver gang
+
 | Uke | Økt | Dag | Dato | Innhold |
 |---|---|---|---|---|
 | 1 | — | Mandag | 10.8 | Oppstart |
