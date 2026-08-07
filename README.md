@@ -90,6 +90,5 @@ Dette repoet ("mappen" som ligger på GitHub) er delt inn i to hovedmapper:
 
 ## Om GET Academy
 
-GET Academy er en sosial entreprenør som hjelper mennesker fra utenforskap til jobb innen IT-utvikling.
 
-https://getacademy.no/realkompetansekurs
+https://getacademy.no/
