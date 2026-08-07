@@ -53,7 +53,7 @@ Vi bruker **ikke**: løkker, arrays eller objekter.
 | 5 | 1 | Tirsdag | 8.9 | Case-oppgave (gruppearbeid) |
 | 5 | 2 | Torsdag | 10.9 | Innleveringsoppgave (frist fredag 11.9) |
 
-Den siste uken (uke 5) blir det en **innleveringsoppgave** med frist **fredag 11.09**. Det er viktig at dere koder selv og løser oppgavene som kommer — ikke kopier løsninger fra andre.
+Den siste uken (uke 5) blir det en **innleveringsoppgave** med frist **fredag 11.09**. Det er viktig at dere koder selv og løser oppgavene som kommer
 
 ---
 
