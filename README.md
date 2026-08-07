@@ -58,22 +58,33 @@ Vi bruker **ikke**: løkker, arrays eller objekter.
 
 ## Struktur på repoet
 
+Dette repoet ("mappen" som ligger på GitHub) er delt inn i to hovedmapper:
+
 ```
 /eksempler
-   /økt 1-1    Intro, HTML, CSS
-   /økt 1-2    Layout, JS grunnlag
-   /økt 2-1    Funksjoner med parametre
-   /økt 2-2    Variabler, operatorer, if
-   /økt 3-1    Returverdi og komponenter
-   /økt 3-2    Operatorer, null, undefined
-   /økt 4-1    MVC
-   /økt 4-2    Innebygde metoder: tall og strenger
-   /økt 5-1    Case-oppgave
+   Økt 1-1.md   Intro, HTML, CSS
+   Økt 1-2.md   Layout, JS grunnlag
+   Økt 2-1.md   Funksjoner med parametre
+   Økt 2-2.md   Variabler, operatorer, if
+   Økt 3-1.md   Returverdi og komponenter
+   Økt 3-2.md   Operatorer, null, undefined
+   Økt 4-1.md   MVC
+   Økt 4-2.md   Innebygde metoder: tall og strenger
+   Økt 5-1.md   Case-oppgave
+
 /oppgaver
-   /Uke1       — ukesoppgaver
+   /Uke1
+      oppgave-1.html
+      oppgave-2.html
+      oppgave-3.html
+   /Uke2 ...    (nye ukemapper kommer etter hvert som kurset går)
 ```
 
-Oppgaver kommet fortløpende i mappen [`/oppgaver`](oppgaver).
+**[`/eksempler`](eksempler)** — én fil per økt (`.md`-filer, som denne README-en). Her finner du planen og notatene for det som gjennomgås i timen: mål for økten, teori og eksempelkode. Filnavnet følger øktplanen over, f.eks. `Økt 2-1.md` er materialet til uke 2, tirsdag.
+
+**[`/oppgaver`](oppgaver)** — ukesoppgavene dere skal øve på selv. Hver uke får sin egen undermappe (`Uke1`, `Uke2`, …) med HTML-filer dere fyller ut. Oppgavene ligger som ferdige HTML-skjeletter med kommentarer (`<!-- -->`) som forklarer hva dere skal gjøre — les kommentarene og skriv koden under dem. Nye oppgaver legges til fortløpende etter hvert som kurset går.
+
+**Tips:** Last ned hele repoet med GitHub Desktop, åpne mappen i VS Code, og bruk Live Server-utvidelsen for å se HTML-filene i nettleseren mens du jobber.
 
 ---
 
