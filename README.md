@@ -50,7 +50,7 @@ Vi bruker **ikke**: løkker, arrays eller objekter.
 | 3 | 1 | Tirsdag | 25.8 | Funksjoner med returverdi = gjenbrukbare komponenter |
 | 3 | 2 | Torsdag | 27.8 | Full operatorpakke + null og undefined |
 | 4 | 1 | Tirsdag | 1.9 | Intro MVC — veldig enkelt |
-| 4 | 2 | Torsdag | 3.9 |  Case-oppgave(gruppearbeid) |
+| 4 | 2 | Torsdag | 3.9 | Case-oppgave(gruppearbeid) |
 | 5 | 1 | Tirsdag | 8.9 | Case-oppgave (gruppearbeid) |
 | 5 | 2 | Torsdag | 10.9 | Innleveringsoppgave (frist fredag 11.9) |
 
