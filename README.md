@@ -10,11 +10,9 @@
 Dette kurset går over fem uker med minimum 2 økter per uke (tirsdager og torsdager kl. 10:00–11:30). Oppstart er mandag 10. august. Du lærer å lage interaktive nettsider med HTML, CSS og JavaScript.
 
 Tirsdag, Torsdag · 10:00–11:30
-Samme link hver gang: [meet.google.com/ojg-xuky-unp](https://meet.google.com/ojg-xuky-unp)
 
 Får å bli med i Discord kanalen er lenken https://discord.gg/RWd72jmB4
 
-Hver fredag blir det **show and tell** i Discord-kanalen kl 10:00, hvor vi oppsummerer uken og viser hva vi har jobbet med.
 
 ---
 
