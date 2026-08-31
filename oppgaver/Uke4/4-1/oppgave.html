@@ -36,22 +36,22 @@
       // Begge starter på 0
 
       // ---- VIEW ----
-      // Lag en funksjon render() som:
+      // Lag en funksjon updateView() som:
       // 1. Oppdaterer visningen med antall stemmer for og mot
       // 2. Viser en statusmelding:
       //    - "Det er flertall for!" hvis stemmerFor > stemmerMot
       //    - "Det er flertall mot!" hvis stemmerMot > stemmerFor
       //    - "Det er uavgjort!" hvis de er like
-      // render() skal ALDRI endre model — bare lese fra den
+      // updateView() skal ALDRI endre model — bare lese fra den
 
       // ---- CONTROLLER ----
       // Lag tre funksjoner: stemmFor(), stemmMot(), nullstill()
       // Hver funksjon skal:
       // 1. Oppdatere riktig modellvariabel
-      // 2. Kalle render()
+      // 2. Kalle updateView()
       // Controller-funksjoner skal ALDRI endre HTML direkte
 
-      // Kall render() én gang nederst slik at siden vises korrekt ved oppstart
+      // Kall updateView() én gang nederst slik at siden vises korrekt ved oppstart
     </script>
   </body>
 </html>
