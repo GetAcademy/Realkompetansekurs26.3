@@ -50,16 +50,22 @@
       id="input"
       type="text"
       placeholder='Prøv: "42", "3.14", "42px", "hei"'
+      oninput="myInput=this.value"
     />
-    <button onclick="konverter()">Konverter</button>
+    <button onclick="convert()">Konverter</button>
 
     <div id="output"></div>
 
     <script>
+      let myInput = null;
       // OPPGAVE 1: Number() og parseInt()
 
       // Lag funksjonen konverter()
       // Den skal lese verdien fra #input og vise fire rader i #output
+
+      function convert(){
+        console.log(Number("hello"))
+      }
 
       // Rad 1: "Number():"        → resultatet av Number(input)
       // Rad 2: "parseInt():"      → resultatet av parseInt(input)
