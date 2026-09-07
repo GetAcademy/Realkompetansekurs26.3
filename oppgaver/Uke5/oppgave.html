@@ -64,15 +64,17 @@
 
     <script>
       //Model
-      const size = 64; //antal ruter
+      const size = 64; // antall ruter
+      let yellowSquareIndex = 0;
 
       const highlightSquare = `<div class="selected"></div>`;
       const pattern = `<div></div>`;
       const mainDiv = document.getElementById("app");
 
-      // Tegner brettet på nytt basert på squareIndex,
-      // Akkurat nå er funksjonen hardkodet, hvordan kan vi bruke modellen istedet for å tegne brettet?
-      // Forstå hvordan funksjonen funker før du skriver kode
+      // Tegner brettet på nytt.
+      // Akkurat nå er funksjonen hardkodet: den tegner alltid den gule ruten samme sted.
+      // Hvordan kan vi bruke modellen (yellowSquareIndex) i stedet?
+      // Forstå hvordan funksjonen funker før du skriver kode.
       function showBoard() {
         mainDiv.innerHTML = ``;
         drawPattern(0);
@@ -91,7 +93,8 @@
       // 0 er øverst til venstre. 63 er nederst til høyre.
       // Hver rad er 8 ruter bred.
 
-      // 1. Lag en variabel yellowSquareIndex som holder posisjonen til den gule ruten.
+      // 1. Bruk variabelen yellowSquareIndex (finnes allerede i modellen)
+      //    til å holde posisjonen til den gule ruten.
 
       // 2. showBoard() er akkurat nå hardkodet til å tegne den gule ruten samme sted.
       //    Endre showBoard() slik at den tegner den gule ruten ut fra yellowSquareIndex.
@@ -103,7 +106,9 @@
       // 5. moveDown()   – flytter den gule ruten én rad ned.
       // 6. moveUp()     – flytter den gule ruten én rad opp.
 
-      // BONUS 1: Hindre at ruten går utenfor brettet.
+      //    Ruten skal holde seg innenfor brettet (0–63).
+
+      // BONUS 1: La ruten hoppe til motsatt kant når den går utenfor.
       // BONUS 2: Vis hvilken rad og kolonne den gule ruten er på.
 
       showBoard();
