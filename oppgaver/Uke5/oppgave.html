@@ -63,22 +63,21 @@
     </div>
 
     <script>
-      // ----- DISSE ER GITT — IKKE ENDRE DEM -----
-
       //Model
-      const size = 64;
-      let squareIndex = 0;
+      const size = 64; //antal ruter
 
       const highlightSquare = `<div class="selected"></div>`;
       const pattern = `<div></div>`;
       const mainDiv = document.getElementById("app");
 
-      // Tegner brettet på nytt basert på squareIndex
+      // Tegner brettet på nytt basert på squareIndex,
+      // Akkurat nå er koden hardkodet, hvordan kan vi bruke modellen istedet for å tegne brettet?
+      // Forstå hvordan funksjonen funker før du skriver kode
       function showBoard() {
         mainDiv.innerHTML = ``;
-        drawPattern(0); //endre her
+        drawPattern(0);
         mainDiv.innerHTML += highlightSquare;
-        drawPattern(63); //endre her
+        drawPattern(63);
       }
 
       // Tegner et gitt antall tomme ruter
@@ -88,39 +87,24 @@
 
       //Før du skriver kode, les gjennom koden og forstå hva den gjør
 
-      // ----- DIN KODE STARTER HER -----
-
       // Brettet er 8x8 = 64 ruter.
       // 0 er øverst til venstre. 63 er nederst til høyre.
-      // Kall showBoard() for å tegne brettet.
+      // Hver rad er 8 ruter bred.
 
       // 1. Lag en variabel yellowSquareIndex som holder posisjonen til den gule ruten.
 
-      //Lag disse funksjoner og koble dem til knappene
+      // 2. showBoard() er akkurat nå hardkodet til å tegne den gule ruten samme sted.
+      //    Endre showBoard() slik at den tegner den gule ruten ut fra yellowSquareIndex.
 
-      // 2. moveRight()
-      //    Den gule ruten flytter seg én rute til høyre.
-      //    Ved høyre kant skal den hoppe til venstre kant.
+      // Lag disse funksjonene og koble dem til knappene:
 
+      // 3. moveRight()  – flytter den gule ruten én rute til høyre.
+      // 4. moveLeft()   – flytter den gule ruten én rute til venstre.
+      // 5. moveDown()   – flytter den gule ruten én rad ned.
+      // 6. moveUp()     – flytter den gule ruten én rad opp.
 
-
-      // 3. moveLeft()
-      //    Den gule ruten flytter seg én rute til venstre.
-      //    Ved venstre kant skal den hoppe til høyre kant.
-    
-
-      // 4. moveDown()
-      //    Den gule ruten flytter seg én rad ned.
-      //    Ved nederste rad skal den hoppe til øverste rad.
-  
-
-      // 5. moveUp()
-      //    Den gule ruten flytter seg én rad opp.
-      //    Ved øverste rad skal den hoppe til nederste rad.
-  
-
-      // BONUS:
-      // Vis hvilken rad og kolonne den gule ruten er på.
+      // BONUS 1: Hindre at ruten går utenfor brettet.
+      // BONUS 2: Vis hvilken rad og kolonne den gule ruten er på.
 
       showBoard();
     </script>
